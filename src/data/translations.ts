@@ -2,7 +2,7 @@ export const content = {
     en: {
         greeting: "Hey, I'm Maria",
         description: "Curious mind, former math teacher turned data & software nerd. I must really love problem-solving and numbers?!",
-        image: "/assets/test.jpg",
+        image: "/assets/ny.webp",
         theme: "english",
         about: `I followed a rabbit hole into the world of code.. and as a bunny owner, it felt oddly on brand.
 \nI recently completed a diploma in software development(EQF level 5) with a specialisation in predictive analytics, and graduated with Merit: from home, on my own, with a lot of coffee and even more determination.
