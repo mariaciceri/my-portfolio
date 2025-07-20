@@ -1,0 +1,1 @@
+// Include language switching functionality and menu
