@@ -19,8 +19,71 @@ export const content = {
             {
                 company: "Futuraskolan Hertig Karl",
                 position: "Math Teacher",
-                description: `As a math teacher, I developed strong communication, patience, and adaptability, making complex topics understandable and engaging for a wide range of learners. I also learned how to manage time effectively, lead with empathy, and stay calm under pressure: all skills I now bring into tech teams and collaborative environments.`
+                description: `Taught mathematics to grades 6-9 and served as mentor for grades 7-8. Introduced programming logic and Python using free resources, adapted lessons to diverse skill levels, and supported a student teacher with guidance and feedback, developing strong leadership, flexibility, and mentoring skills.`
+            },
+            {
+                company: "ISSR",
+                position: "Teaching Assistant",
+                description: `Assisted grade 4 students in the classroom and co-led a Scratch coding club. Gained valuable organizational and teamwork skills through weekly planning and close collaboration with the lead teacher.`
             }
+        ],
+        projects: [
+            {
+                name:"Coming Soon",
+                description: "A React Native + Expo + TypeScript mobile app for managing your video game library—launching soon! Users can manually add games, but the real fun is the auto-suggest feature: type a game name, and the app fetches metadata and cover art. Linking Steam account is already integrated, with more platforms coming. The goal? Clean, intuitive UX for gamers, built collaboratively with my very gamer husband. So no more scrolling through your library or going to many places to find if you have a game or not.",
+                link: "",
+                github: "",
+                tech: "Problem-solving with asynchronous API integration, UI finesse in TypeScript, seamless mobile UX flows",
+            },
+            {
+                name:"TakeCare Inventory Management",
+                description: "A full-stack Python/Django web app managing healthcare stock levels: supplies, restocking thresholds, expiration dates, and user roles. I architected the backend (PostgreSQL + Django ORM), built responsive frontends with JavaScript/HTML/CSS, and enforced quality via TDD, writing unit tests for models, views, and API endpoints.",
+                link: "https://takecare-inventory.onrender.com/",
+                github: "https://github.com/mariaciceri/takecare_inventory",
+                tech: "Python, Django, PostgreSQL, TDD, JavaScript, HTML, CSS, REST API, User Authentication, Role-based Access Control, Responsive Design",
+            },
+            {
+                name:"Loan Default Predictor",
+                description: "A machine learning project in Jupyter Notebook: I cleaned and engineered features from raw financial data, evaluated multiple classifiers in Scikit-learn, visualized results with Seaborn & Matplotlib. Wrapped it all in a polished Streamlit web UI so non-technical users could predict if someone's likely to default.",
+                link: "https://loan-default-predictor-0ouz.onrender.com/",
+                github: "https://github.com/mariaciceri/loan_default_predictor",
+                tech: "Jupyter Notebook, Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit, CSV data, Business Analysis, Clear Visual Storytelling",
+            },
+            {
+                name:"Pin Head Lists",
+                description: "An OOP‑based JavaScript app for creating shopping lists. I built dynamic list creation, item editing/deleting, and localStorage persistence. Clean UI with HTML/CSS, plus modular JS classes for flexibility.",
+                link: "https://mariaciceri.github.io/pin_head_list/",
+                github: "https://github.com/mariaciceri/pin_head_list",
+                tech: "JavaScript, HTML, CSS, OOP, DOM Manipulation, LocalStorage",
+            },
+            {
+                name:"Best 1000 Movies Finder",
+                description: "Built in Python using CSV parsing and OOP, this app reads a curated dataset, lets users search by title/genre/year, and shows details and recommendations, all in the terminal or with the basic UI developed by Code Instute.",
+                link: "https://movie-recommendation-yryd.onrender.com/",
+                github: "https://github.com/mariaciceri/movie-recommendation",
+                tech: "Python, OOP, CSV data",
+            },
+            {
+                name:"Vini Artist Portfolio",
+                description: "A sleek React/JavaScript site showcasing an artist’s work. I integrated Bootstrap for responsiveness, CSS animations for flair, Netlify for fast deployment, and React state/hooks for filtering/viewing functionality.",
+                link: "https://vini-artist.netlify.app/",
+                github: "https://github.com/mariaciceri/viniPage",
+                tech: "React, JavaScript, CSS, Bootstrap, Collaboration with the Client, Responsive Design, User-Centric Design",
+            },
+            {
+                name:"Countdown to Xmas 2024",
+                description: "A festive React app counting down to Christmas day, built during a hackathon! Displays daily surprises behind “calendar doors” (a nod to digital advent calendars). I handled state management, conditional rendering, styling, and deployment on Netlify, all under tight time constraints.",
+                link: "https://countdown-to-xmas-2024.netlify.app/",
+                github: "https://github.com/mariaciceri/advent-calendar",
+                tech: "React, JavaScript, CSS, Hackathon Project, Time Management, Creative Problem Solving, Team Collaboration, Communication",
+            },
+            {
+                name:"This very portfolio",
+                description: "My latest creation: a custom React + TypeScript + Tailwind CSS site with elegant Framer Motion animations, all bundled via Vite and live on Netlify. Designed hand-in-hand with a UX designer friend, the goal was to seamlessly showcase my skills, experiences, and personality.",
+                link: "",
+                github: "https://github.com/mariaciceri/my-portfolio",
+                tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX Design, Responsive Design, Performance Optimization, Collaboration",
+            },
         ]
     },
     sv: {
@@ -43,8 +106,71 @@ export const content = {
             {
                 company: "Futuraskolan Hertig Karl",
                 position: "Mattelärare",
-                description: `Som mattelärare utvecklade jag starka färdigheter inom kommunikation, tålamod och anpassningsförmåga. Jag gjorde svåra ämnen begripliga och intressanta för elever med olika behov. Jag lärde mig också att hantera tid effektivt, leda med empati och behålla lugnet i pressade situationer, färdigheter jag nu tar med mig in i teknikbranschen och teamarbete.`
+                description: `Undervisade matematik i årskurs 6-9 och var mentor för årskurs 7-8. Introducerade programmeringslogik och Python med hjälp av kostnadsfria resurser, anpassade undervisningen efter olika kunskapsnivåer och handledde en lärarstudent med stöd och återkoppling, vilket utvecklade mitt ledarskap, min flexibilitet och min handledningsförmåga.`
+            },
+            {
+                company: "ISSR",
+                position: "Lärarassistent",
+                description: `Stöttade elever i årskurs 4 i klassrummet och var medledare för en kodklubb i Scratch. Utvecklade god organisations- och samarbetsförmåga genom veckoplanering och nära samarbete med klassläraren.`
             }
+        ],
+        projects: [
+            {
+                name: "Coming Soon",
+                description: "A React Native + Expo + TypeScript mobile app for managing your video game library—launching soon! Users can manually add games, but the real fun is the auto-suggest feature: type a game name, and the app fetches metadata and cover art. Linking Steam account is already integrated, with more platforms coming. The goal? Clean, intuitive UX for gamers, built collaboratively with my very gamer husband. So no more scrolling through your library or going to many places to find if you have a game or not.",
+                link: "",
+                github: "",
+                tech: "Problem-solving with asynchronous API integration, UI finesse in TypeScript, seamless mobile UX flows",
+            },
+            {
+                name: "TakeCare Inventory Management",
+                description: "A full-stack Python/Django web app managing healthcare stock levels: supplies, restocking thresholds, expiration dates, and user roles. I architected the backend (PostgreSQL + Django ORM), built responsive frontends with JavaScript/HTML/CSS, and enforced quality via TDD, writing unit tests for models, views, and API endpoints.",
+                link: "https://takecare-inventory.onrender.com/",
+                github: "https://github.com/mariaciceri/takecare_inventory",
+                tech: "Python, Django, PostgreSQL, TDD, JavaScript, HTML, CSS, REST API, User Authentication, Role-based Access Control, Responsive Design",
+            },
+            {
+                name: "Loan Default Predictor",
+                description: "A machine learning project in Jupyter Notebook: I cleaned and engineered features from raw financial data, evaluated multiple classifiers in Scikit-learn, visualized results with Seaborn & Matplotlib. Wrapped it all in a polished Streamlit web UI so non-technical users could predict if someone's likely to default.",
+                link: "https://loan-default-predictor-0ouz.onrender.com/",
+                github: "https://github.com/mariaciceri/loan_default_predictor",
+                tech: "Jupyter Notebook, Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Streamlit, CSV data, Business Analysis, Clear Visual Storytelling",
+            },
+            {
+                name: "Pin Head Lists",
+                description: "An OOP‑based JavaScript app for creating shopping lists. I built dynamic list creation, item editing/deleting, and localStorage persistence. Clean UI with HTML/CSS, plus modular JS classes for flexibility.",
+                link: "https://mariaciceri.github.io/pin_head_list/",
+                github: "https://github.com/mariaciceri/pin_head_list",
+                tech: "JavaScript, HTML, CSS, OOP, DOM Manipulation, LocalStorage",
+            },
+            {
+                name: "Best 1000 Movies Finder",
+                description: "Built in Python using CSV parsing and OOP, this app reads a curated dataset, lets users search by title/genre/year, and shows details and recommendations, all in the terminal or with the basic UI developed by Code Instute.",
+                link: "https://movie-recommendation-yryd.onrender.com/",
+                github: "https://github.com/mariaciceri/movie-recommendation",
+                tech: "Python, OOP, CSV data",
+            },
+            {
+                name: "Vini Artist Portfolio",
+                description: "A sleek React/JavaScript site showcasing an artist’s work. I integrated Bootstrap for responsiveness, CSS animations for flair, Netlify for fast deployment, and React state/hooks for filtering/viewing functionality.",
+                link: "https://vini-artist.netlify.app/",
+                github: "https://github.com/mariaciceri/viniPage",
+                tech: "React, JavaScript, CSS, Bootstrap, Collaboration with the Client, Responsive Design, User-Centric Design",
+            },
+            {
+                name: "Countdown to Xmas 2024",
+                description: "A festive React app counting down to Christmas day, built during a hackathon! Displays daily surprises behind “calendar doors” (a nod to digital advent calendars). I handled state management, conditional rendering, styling, and deployment on Netlify, all under tight time constraints.",
+                link: "https://countdown-to-xmas-2024.netlify.app/",
+                github: "https://github.com/mariaciceri/advent-calendar",
+                tech: "React, JavaScript, CSS, Hackathon Project, Time Management, Creative Problem Solving, Team Collaboration, Communication",
+            },
+            {
+                name: "This very portfolio",
+                description: "My latest creation: a custom React + TypeScript + Tailwind CSS site with elegant Framer Motion animations, all bundled via Vite and live on Netlify. Designed hand-in-hand with a UX designer friend, the goal was to seamlessly showcase my skills, experiences, and personality.",
+                link: "",
+                github: "https://github.com/mariaciceri/my-portfolio",
+                tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX Design, Responsive Design, Performance Optimization, Collaboration",
+            },
         ]
     },
 };
