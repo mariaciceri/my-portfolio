@@ -21,7 +21,7 @@ function Home() {
     
     return (
         <AnimatePresence>
-            <div className="bg-gray-50 py-24 sm:py-32">
+            <div className="bg-stone-50 py-20 rounded-2xl">
                 <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                     <motion.div className='flex m-6'
                     key={language + '-home'}
@@ -31,7 +31,7 @@ function Home() {
                     transition={{ duration: 0.8 }}
                     >
                         <div>
-                            <h2 className={`text-center text-4xl tracking-tighter font-semibold ${textColor}`}>
+                            <h2 className={`font-cormorant text-center text-4xl tracking-tighter font-semibold ${textColor}`}>
                                 {greeting}
                             </h2>
                             <p className="mx-auto mt-2 max-w-lg tracking-tighter text-center text-xl font-semibold tracking-tight text-balance text-gray-950">
@@ -54,15 +54,15 @@ function Home() {
                     exit = {{ opacity: 1, y: -30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition = {{ duration: 0.8 }}
-                    className="mt-20 grid gap-4 sm:mt-16 lg:grid-cols-2"
+                    className="mt-20 grid gap-4 sm:mt-16 lg:grid-cols-2 items-stretch"
                     >
-                        <div className='row-span-2'>
+                        <div className='h-full flex flex-col'>
                             <About />
                         </div>
                         <motion.div 
                         {...(window.innerWidth < 1024 ? fadeIn : {})}
                         key={`${language}-experience`}
-                        className='flex'
+                        className='h-full flex flex-col'
                         >
                             <Experience />
                         </motion.div>

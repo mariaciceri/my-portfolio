@@ -6,12 +6,12 @@ function About() {
     const about = content[language].about || "Something went wront, sorry about that! Please contact me if you can't see this text.";;
 
     return (
-        <div className="bg-red-500">
-            <h3 className="text-2xl font-semibold text-gray-900 tracking-widest mb-4">
+        <div className="shadow-xl rounded-2xl p-8 lg:h-full">
+            <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4">
                 {language === 'sv' ? 'Om mig' : 'About Me'}
             </h3>
             {about.split('\n').map((line, index) => (
-                <p key={index} className="text-gray-900 tracking-tight">
+                <p key={index} className="tracking-tight text-gray-600 p-1">
                     {line}
                 </p>
             ))}
