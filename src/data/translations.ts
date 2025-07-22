@@ -1,7 +1,7 @@
 export const content = {
     en: {
         greeting: "Hey, I'm Maria",
-        description: "Curious mind, former math teacher turned data & software nerd. I must really love problem-solving and numbers?!",
+        description: "Curious mind, former math teacher turned into data & software nerd. I must really love problem-solving and numbers?!",
         image: "/assets/ny.webp",
         theme: "english",
         about: `I followed a rabbit hole into the world of code.. and as a bunny owner, it felt oddly on brand.
@@ -14,16 +14,19 @@ export const content = {
             {
                 company: "Qling.ai",
                 position: "Full-stack/ML Developer Intern",
+                date: "04/2025 - 07/2025",
                 description: `During my 3-month internship at Qling.ai, I worked as a fullstack developer and ML support, contributing across the entire stack: from frontend design using HTML and CSS to backend logic with Flask and SQLAlchemy. I was responsible for integrating Google APIs to enable user login, email classification, and sending emails on behalf of users. While I wasn't involved in building the ML models themselves, I handled everything around them: data handling, integration, and user interface. I also stepped into the role of Scrum Master, led daily standups, and promoted clean code and good practices within the team. The internship followed agile methodology with weekly sprints and JIRA for task tracking, and gave me the chance to collaborate closely with other developers in a fast-paced, product-focused environment.`
             },
             {
                 company: "Futuraskolan Hertig Karl",
                 position: "Math Teacher",
+                date: "02/2023 - 07/2024",
                 description: `Taught mathematics to grades 6-9 and served as mentor for grades 7-8. Introduced programming logic and Python using free resources, adapted lessons to diverse skill levels, and supported a student teacher with guidance and feedback, developing strong leadership, flexibility, and mentoring skills.`
             },
             {
                 company: "ISSR",
                 position: "Teaching Assistant",
+                date: "02/2022 - 02/2023",
                 description: `Assisted grade 4 students in the classroom and co-led a Scratch coding club. Gained valuable organizational and teamwork skills through weekly planning and close collaboration with the lead teacher.`
             }
         ],
@@ -84,7 +87,11 @@ export const content = {
                 github: "https://github.com/mariaciceri/my-portfolio",
                 tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX Design, Responsive Design, Performance Optimization, Collaboration",
             },
-        ]
+        ],
+        contact: {
+            message:"Are you ready to build something amazing together? Let's connect and create something awesome!",
+            email:"Send me an e-mail and let's go!"
+        }
     },
     sv: {
         greeting: "Hej, jag heter Maria",
@@ -101,16 +108,19 @@ export const content = {
             {
                 company: "Qling.ai",
                 position: "Praktikant, Full-stack/ML Developer",
+                date: "04/2025 - 07/2025",
                 description: `Under min tre månader långa praktik på Qling.ai arbetade jag som fullstackutvecklare och ML-stöd, med uppgifter som sträckte sig över hela stacken: från frontenddesign med HTML och CSS till backendlogik med Flask och SQLAlchemy. Jag ansvarade för att integrera Googles API:er för att möjliggöra inloggning, e-postklassificering samt skicka mejl å användarens vägnar. Även om jag inte utvecklade själva ML-modellerna, hanterade jag all integration runt dem: datahantering, backendfunktionalitet och användargränssnitt. Jag tog också rollen som Scrum Master, ledde dagliga standups och drev på för god kodkvalitet och utvecklingspraxis i teamet. Praktiken följde agila arbetsmetoder med veckosprintar och JIRA, och gav mig värdefull erfarenhet av samarbete i en snabb och produktfokuserad miljö.`
             },
             {
                 company: "Futuraskolan Hertig Karl",
                 position: "Mattelärare",
+                date: "02/2023 - 07/2024",
                 description: `Undervisade matematik i årskurs 6-9 och var mentor för årskurs 7-8. Introducerade programmeringslogik och Python med hjälp av kostnadsfria resurser, anpassade undervisningen efter olika kunskapsnivåer och handledde en lärarstudent med stöd och återkoppling, vilket utvecklade mitt ledarskap, min flexibilitet och min handledningsförmåga.`
             },
             {
                 company: "ISSR",
                 position: "Lärarassistent",
+                date: "02/2022 - 02/2023",
                 description: `Stöttade elever i årskurs 4 i klassrummet och var medledare för en kodklubb i Scratch. Utvecklade god organisations- och samarbetsförmåga genom veckoplanering och nära samarbete med klassläraren.`
             }
         ],
@@ -171,6 +181,10 @@ export const content = {
                 github: "https://github.com/mariaciceri/my-portfolio",
                 tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX Design, Responsive Design, Performance Optimization, Collaboration",
             },
-        ]
+        ],
+        contact: {
+            message: "Är du redo att bygga något fantastiskt tillsammans? Låt oss koppla ihop oss och skapa något grymt!",
+            email: "Skicka ett mejl till mig så pratar vi mer!"
+        }
     },
 };
