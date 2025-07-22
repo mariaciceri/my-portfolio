@@ -5,7 +5,12 @@ export default {
         './src/**/*.{js,ts,jsx,tsx}',
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                varela: ['Varela', 'sans-serif'],
+                cormorant: ['Cormorant Infant', 'serif'],
+            }
+        },
     },
     plugins: [],
 }
