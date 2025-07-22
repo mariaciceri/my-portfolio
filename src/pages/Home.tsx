@@ -12,7 +12,7 @@ function Home() {
     const { language } = useLanguage();
     const { greeting, description, image } = content[language];
     const { colorScheme } = useColor();
-    const { primary, secondary, popupBackground } = colors[colorScheme];
+    const { primary, secondary } = colors[colorScheme];
 
     
     const fadeIn = {
