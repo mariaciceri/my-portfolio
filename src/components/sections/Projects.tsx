@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useLanguage } from "../../context/LanguageContext";
 import { content } from '../../data/translations';
-import { motion } from 'framer-motion';
 import ProjectPopup from '../ProjectPopup';
 
 function Projects() {
