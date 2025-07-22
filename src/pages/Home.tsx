@@ -3,14 +3,17 @@ import Contact from '../components/sections/Contact'
 import Experience from '../components/sections/Experience'
 import Projects from '../components/sections/Projects'
 import { content } from '../data/translations'
+import { colors } from '../data/colors'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useColor } from '../context/ColorContext'
 import { useLanguage } from '../context/LanguageContext'
-
 
 function Home() {
     const { language } = useLanguage();
     const { greeting, description, image } = content[language];
-    const textColor = language === 'sv' ? 'text-amber-300' : 'text-red-600';
+    const { colorScheme } = useColor();
+    const { primary, secondary, popupBackground } = colors[colorScheme];
+
     
     const fadeIn = {
         initial: { opacity: 0, y: 30 },
@@ -21,7 +24,7 @@ function Home() {
     
     return (
         <AnimatePresence>
-            <div className="bg-stone-50 py-20 rounded-2xl">
+            <div className="py-20 rounded-2xl shadow-xl bg-stone-200">
                 <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                     <motion.div className='flex m-6'
                     key={language + '-home'}
@@ -30,22 +33,26 @@ function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     >
-                        <div>
-                            <h2 className={`font-cormorant text-center text-4xl tracking-tighter font-semibold ${textColor}`}>
-                                {greeting}
-                            </h2>
-                            <p className="mx-auto mt-2 max-w-lg tracking-tighter text-center text-xl font-semibold tracking-tight text-balance text-gray-950">
-                            {description}
-                            </p>
-                        </div>
-                        <div className="flex justify-center">
-                            {/* ADD A NICER IMAGE EFFECT */}
-                            <motion.img
-                            key={image}
-                            src={image}
-                            alt="Maria"
-                            className="h-48 w-48 rounded-full object-cover shadow-lg"
-                            />
+                        <div className='flex justify-between items-center w-full max-sm:block'>
+                            <div>
+                                <h2 className={"font-cormorant text-center text-4xl tracking-tighter font-semibold"}
+                                style={{ color: primary  }}>
+                                    {greeting}
+                                </h2>
+                                <p className="mx-auto mt-2 max-w-lg tracking-tighter text-center text-xl font-semibold"
+                                style={{ color: secondary }}>
+                                    {description}
+                                </p>
+                            </div>
+                            <div>
+                                <motion.img
+                                key={image}
+                                src={image}
+                                alt="Maria"
+                                    className="h-48 w-48 rounded-3xl object-cover shadow-2xl border border-white/30 mr-6
+                                    max-sm:mx-auto max-sm:mt-6"
+                                />
+                            </div>
                         </div>
                     </motion.div>
                     <motion.div 

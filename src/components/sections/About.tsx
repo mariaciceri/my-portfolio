@@ -1,17 +1,23 @@
 import { useLanguage } from "../../context/LanguageContext";
+import { useColor } from '../../context/ColorContext';
 import { content } from '../../data/translations';
+import { colors } from '../../data/colors';
 
 function About() {
     const { language } = useLanguage();
     const about = content[language].about || "Something went wront, sorry about that! Please contact me if you can't see this text.";;
+    const { colorScheme } = useColor();
+    const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
-        <div className="shadow-xl rounded-2xl p-8 lg:h-full">
-            <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4">
+        <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4 max-sm:text-xl"
+        style={{ backgroundColor: lightBackground, color: primary }}
+        >
+            <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl">
                 {language === 'sv' ? 'Om mig' : 'About Me'}
             </h3>
             {about.split('\n').map((line, index) => (
-                <p key={index} className="tracking-tight text-gray-600 p-1">
+                <p key={index} className="tracking-tight p-1" style={{ color: secondary }}>
                     {line}
                 </p>
             ))}
