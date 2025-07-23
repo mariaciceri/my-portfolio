@@ -13,9 +13,9 @@ function Experience() {
     return (
         <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4"
         style={{ backgroundColor: lightBackground, color: secondary }}>
-            <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl"
+            <h3 className="break-all whitespace-pre-wrap text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl"
             style={{ color: primary }}>
-                {language === 'sv' ? 'Arbetslivesrfarenhet' : 'Work Experience'}
+                {language === 'sv' ? 'Arbetslivserfarenhet' : 'Work Experience'}
             </h3>
 
             {exp.map((item, index) => {
