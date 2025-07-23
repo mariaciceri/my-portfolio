@@ -61,7 +61,7 @@ function Home() {
                     exit = {{ opacity: 1, y: -30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition = {{ duration: 0.8 }}
-                    className="mt-20 grid gap-4 sm:mt-16 lg:grid-cols-2 items-stretch"
+                    className="mt-20 grid gap-4 sm:mt-16 lg:grid-cols-2"
                     >
                         <div className='h-full flex flex-col'>
                             <About />
@@ -74,7 +74,7 @@ function Home() {
                             <Experience />
                         </motion.div>
                     </motion.div>
-                    <div className="mt-10">
+                    <div className="mt-8">
                         <motion.div 
                         {...fadeIn}
                         key={`${language}-projects`}
