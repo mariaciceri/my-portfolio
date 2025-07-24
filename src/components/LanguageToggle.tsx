@@ -19,7 +19,7 @@ export default function LanguageToggle() {
         <div className="flex justify-end p-4">
             <button 
             onClick={toggleLanguage}
-            className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white">
+            className="hover:text-gray-900">
                 {language === 'en' ? 'SE 🇸🇪' : 'EN 🇬🇧'}
             </button>
         </div>

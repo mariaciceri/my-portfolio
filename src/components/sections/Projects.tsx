@@ -33,7 +33,9 @@ function Projects() {
     return (
         <div className="grid grid-cols-3 gap-2 p-4 shadow-xl rounded-2xl
         max-sm:grid-cols-1 max-sm:gap-4 max-sm:p-2"
-        style={{ backgroundColor: primary, color: lightBackground }}>
+        style={{ backgroundColor: primary, color: lightBackground }}
+        id="Projects"
+        >
             <h3 className="col-span-3 tracking-widest font-cormorant text-4xl max-sm:col-span-1">
                 Personal Projects
             </h3>

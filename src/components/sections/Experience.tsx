@@ -12,7 +12,9 @@ function Experience() {
 
     return (
         <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4"
-        style={{ backgroundColor: lightBackground, color: secondary }}>
+        style={{ backgroundColor: lightBackground, color: secondary }}
+        id="Experience"
+        >
             <h3 className="break-all whitespace-pre-wrap text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl"
             style={{ color: primary }}>
                 {language === 'sv' ? 'Arbetslivserfarenhet' : 'Work Experience'}

@@ -12,6 +12,7 @@ function About() {
     return (
         <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4 max-sm:text-xl"
         style={{ backgroundColor: lightBackground, color: primary }}
+        id="Home"
         >
             <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl">
                 {language === 'sv' ? 'Om mig' : 'About Me'}

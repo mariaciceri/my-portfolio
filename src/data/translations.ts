@@ -1,5 +1,9 @@
 export const content = {
     en: {
+        header: {
+            title: 'Full-stack Developer',
+            navigator: ['Home', 'Experience', 'Projects', 'Contact'],
+        },
         greeting: "Hey, I'm Maria",
         description: "Curious mind, former math teacher turned into data & software nerd. I must really love problem-solving and numbers?!",
         image: "/assets/ny.webp",
@@ -94,6 +98,10 @@ export const content = {
         }
     },
     sv: {
+        header: {
+            title: 'Full-stack Utvecklare',
+            navigator: ['Hem', 'Erfarenhet', 'Projekt', 'Kontakt'],
+        },
         greeting: "Hej, jag heter Maria",
         description: "Nyfiken själ, före detta mattelärare som blivit data- och kodnörd. Jag älskar väl problemlösning och siffror!",
         image: "/assets/midsommar.webp",

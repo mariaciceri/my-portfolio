@@ -3,6 +3,7 @@ import { ColorProvider } from './context/ColorContext';
 import { LanguageProvider } from './context/LanguageContext';
 import LanguageToggle from './components/LanguageToggle'
 import Home from './pages/Home'
+import Header from './components/Header';
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
     <ColorProvider>
       <div>
         <main>
-          <LanguageToggle/>
+          <Header>
+            <LanguageToggle/>
+          </Header>
           <Home/>
         </main>
       </div>

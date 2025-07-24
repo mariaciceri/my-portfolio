@@ -33,7 +33,7 @@ function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     >
-                        <div className='flex justify-between items-center w-full max-sm:block'>
+                        <div className='flex justify-between items-center w-full max-md:block'>
                             <div>
                                 <h2 className={"font-cormorant text-center text-4xl tracking-tighter font-semibold"}
                                 style={{ color: primary  }}>
@@ -50,7 +50,7 @@ function Home() {
                                 src={image}
                                 alt="Maria"
                                     className="h-48 w-48 rounded-3xl object-cover shadow-2xl border border-white/30 mr-6
-                                    max-sm:mx-auto max-sm:mt-6"
+                                    max-md:mx-auto max-md:mt-6"
                                 />
                             </div>
                         </div>
