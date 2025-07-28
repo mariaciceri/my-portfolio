@@ -5,21 +5,21 @@ export const content = {
             navigator: ['Home', 'Experience', 'Projects', 'Contact'],
         },
         greeting: "Hey, I'm Maria",
-        description: "Curious mind, former math teacher turned into data & software nerd. I must really love problem-solving and numbers?!",
+        description: "Curious mind, former math teacher turned into data & software development nerd. I guess I really love problem-solving and numbers?!",
         image: "/assets/ny.webp",
         theme: "english",
-        about: `I followed a rabbit hole into the world of code.. and as a bunny owner, it felt oddly on brand.
-\nI recently completed a diploma in software development(EQF level 5) with a specialisation in predictive analytics, and graduated with Merit: from home, on my own, with a lot of coffee and even more determination.
-\nMypassion lies in solving problems, especially when they involve data, patterns, and a good puzzle. Whether it's predicting loan defaults using machine learning, building a shopping list app with JavaScript OOP, or managing healthcare inventories with Django and TDD, I'm all in: from backend logic to frontend polish (UX matters!). I've also dabbled in React(trice!), built a movie recommender in Python, and even crafted an Advent calendar app during a hackathon. Read more below ;). 
+        about: `I entered a rabbit hole into the world of code, and as a bunny owner, it felt oddly on brand.
+\nI recently completed a diploma in software development(EQF level 5) with a specialisation in predictive analytics, and graduated with Merit: from home, on my own, with a lot of coffee and determination.
+\nMy passion lies in solving problems, especially when they involve data, patterns, and a good puzzle. Whether it's predicting loan defaults using machine learning, building a shopping list app with JavaScript OOP, or managing healthcare inventories with Django and TDD, I'm all in: from backend logic to frontend polish (UX matters!). I've also dabbled in React(trice!), built a movie recommender in Python, and even crafted an Advent calendar app during a hackathon. Read more below ;). 
 \nAt my internship at Qling.ai, I wore many hats: fullstack dev, ML support, UX designer, Scrum Master, and general code-quality cheerleader.
-\nIn short: I'm someone who gets a little too excited about clean data, clever algorithms, and intuitive design.I thrive when I can learn, collaborate, and build meaningful things.
-\nLet's create something awesome?`,
+\nIn short: I'm someone who gets a little too excited about clean data, clever algorithms, and intuitive design. I thrive when I can learn, collaborate, and build meaningful things.
+\nLet's create something awesome!`,
         exp: [
             {
                 company: "Qling.ai",
                 position: "Full-stack/ML Developer Intern",
                 date: "04/2025 - 07/2025",
-                description: `During my 3-month internship at Qling.ai, I worked as a fullstack developer and ML support, contributing across the entire stack: from frontend design using HTML and CSS to backend logic with Flask and SQLAlchemy. I was responsible for integrating Google APIs to enable user login, email classification, and sending emails on behalf of users. While I wasn't involved in building the ML models themselves, I handled everything around them: data handling, integration, and user interface. I also stepped into the role of Scrum Master, led daily standups, and promoted clean code and good practices within the team. The internship followed agile methodology with weekly sprints and JIRA for task tracking, and gave me the chance to collaborate closely with other developers in a fast-paced, product-focused environment.`
+                description: `During my 3-month internship at Qling.ai I worked as a fullstack developer and ML support, contributing across the entire stack: from frontend design using HTML and CSS to backend logic with Flask and SQLAlchemy. I was responsible for integrating Google APIs to enable user login, email classification, and sending emails on behalf of users. While I wasn't involved in building the ML models themselves, I handled everything around them: data handling, integration, and user interface. I also stepped into the role of Scrum Master, led daily standups, and promoted clean code and good practices within the team. The internship followed agile methodology with weekly sprints and JIRA for task tracking, and gave me the chance to collaborate closely with other developers in a fast-paced, product-focused environment.`
             },
             {
                 company: "Futuraskolan Hertig Karl",
