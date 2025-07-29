@@ -10,7 +10,7 @@ function Contact() {
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
-        <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5"
+        <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5 lg:h-full"
         style={{ backgroundColor: lightBackground }}
         id="Contact">
             <div className="font-cormorant text-2xl pb-4"

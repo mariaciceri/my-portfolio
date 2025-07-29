@@ -2,6 +2,7 @@ import About from '../components/sections/About'
 import Contact from '../components/sections/Contact'
 import Experience from '../components/sections/Experience'
 import Projects from '../components/sections/Projects'
+import Recommendation from '../components/sections/Recommendation'
 import { content } from '../data/translations'
 import { colors } from '../data/colors'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -80,6 +81,11 @@ function Home() {
                         key={`${language}-projects`}
                         >
                             <Projects />
+                        </motion.div>
+                    </div>
+                    <div className="grid lg:gap-4 gap-2 lg:grid-cols-2 mt-2">
+                        <motion.div {...fadeIn} key={`${language}-contact`}>
+                            <Recommendation />
                         </motion.div>
                         <motion.div {...fadeIn} key={`${language}-contact`}>
                             <Contact />

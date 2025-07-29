@@ -95,7 +95,8 @@ export const content = {
         contact: {
             message:"Are you ready to build something amazing together? Let's connect and create something awesome!",
             email:"Send me an e-mail and let's go!"
-        }
+        },
+        reference: "See what people are talking about me:"
     },
     sv: {
         header: {
@@ -193,6 +194,7 @@ export const content = {
         contact: {
             message: "Är du redo att bygga något fantastiskt tillsammans? Låt oss koppla ihop oss och skapa något grymt!",
             email: "Skicka ett mejl till mig så pratar vi mer!"
-        }
+        },
+        reference: "Se vad folk säger om mig:",
     },
 };
