@@ -12,8 +12,7 @@ function Recommendation() {
 
     return (
         <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5 lg:h-full"
-            style={{ backgroundColor: lightBackground }}
-            id="Contact">
+            style={{ backgroundColor: lightBackground }}>
             <div className="font-cormorant text-2xl pb-4"
                 style={{ color: primary }}>
                 {reference}

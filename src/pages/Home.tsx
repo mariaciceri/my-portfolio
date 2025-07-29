@@ -84,7 +84,7 @@ function Home() {
                         </motion.div>
                     </div>
                     <div className="grid lg:gap-4 gap-2 lg:grid-cols-2 mt-2">
-                        <motion.div {...fadeIn} key={`${language}-contact`}>
+                        <motion.div {...fadeIn} key={`${language}-recommendation`}>
                             <Recommendation />
                         </motion.div>
                         <motion.div {...fadeIn} key={`${language}-contact`}>
