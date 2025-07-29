@@ -41,6 +41,7 @@ function Header({children}: { children: React.ReactNode }) {
                             className="inline-flex items-center p-2 w-10 h-10 text-sm rounded-lg md:hidden"
                             aria-controls="navbar-default"
                             aria-expanded={isOpen}
+                            aria-label='Toggle navigation'
                         >
                             <span className="sr-only">Open main menu</span>
                             <svg

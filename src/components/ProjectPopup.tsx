@@ -37,6 +37,7 @@ function ProjectPopup({ project, onClose }: ProjectPopupProps) {
                     <button
                         onClick={onClose}
                         className="px-4 py-2 text-2xl hover:rotate-180 transition-transform duration-200 absolute top-3 right-4"
+                        aria-label='Close Popup'
                     >
                         &times;
                     </button>
