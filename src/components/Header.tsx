@@ -69,6 +69,7 @@ function Header({children}: { children: React.ReactNode }) {
                                     <li key={index}>
                                         <a
                                             href={'#'+item}
+                                            onClick={() => setIsOpen(false)}
                                             className="block py-2 px-3 md:p-0 md:bg-transparent hover:text-gray-900"
                                         >
                                             {item}
