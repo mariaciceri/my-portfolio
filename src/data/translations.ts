@@ -89,7 +89,7 @@ export const content = {
                 description: "My latest creation: a custom React + TypeScript + Tailwind CSS site with elegant Framer Motion animations, all bundled via Vite and live on Netlify. Designed by myself without any templates, the goal was to seamlessly showcase my skills, experiences, and personality.",
                 link: "",
                 github: "https://github.com/mariaciceri/my-portfolio",
-                tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX Design, Responsive Design, Performance Optimization, Collaboration",
+                tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX Design, Responsive Design, Performance Optimization",
             },
         ],
         contact: {
@@ -188,7 +188,7 @@ export const content = {
                 description: "Mitt senaste projekt: en skräddarsydd React + TypeScript + Tailwind CSS-sajt med eleganta Framer Motion-animationer, bundlad med Vite och publicerad på Netlify. Designad av mig utan några templates, med målet att visa upp mina färdigheter, erfarenheter och personlighet på ett sömlöst sätt.",
                 link: "",
                 github: "https://github.com/mariaciceri/my-portfolio",
-                tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX-design, Responsiv design, Prestandaoptimering, Samarbete",
+                tech: "React, TypeScript, Tailwind CSS, Framer Motion, Vite, UX-design, Responsiv design, Prestandaoptimering",
             },
         ],
         contact: {

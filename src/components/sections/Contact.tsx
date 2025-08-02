@@ -6,13 +6,14 @@ import { colors } from '../../data/colors';
 function Contact() {
     const { language } = useLanguage();
     const contactInfo = content[language].contact || "Something went wrong, sorry about that! Please contact me here <mariafacchin00@hotmail.com> if you can't see this text.";
+    const header = content[language].header.navigator[3];
     const { colorScheme } = useColor();
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
         <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5 lg:h-full"
         style={{ backgroundColor: lightBackground }}
-        id="Contact">
+        id={ header }>
             <div className="font-cormorant text-2xl pb-4"
             style={{ color: primary }}>
                 { contactInfo.message }

@@ -6,6 +6,7 @@ import { colors } from '../../data/colors';
 function Experience() {
     const { language } = useLanguage();
     const exp = content[language].exp;
+    const header = content[language].header.navigator[1];
     const { colorScheme } = useColor();
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
@@ -13,7 +14,7 @@ function Experience() {
     return (
         <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4"
         style={{ backgroundColor: lightBackground, color: secondary }}
-        id="Experience"
+        id={ header}
         >
             <h3 className="break-all whitespace-pre-wrap text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl"
             style={{ color: primary }}>

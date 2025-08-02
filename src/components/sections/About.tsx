@@ -6,13 +6,14 @@ import { colors } from '../../data/colors';
 function About() {
     const { language } = useLanguage();
     const about = content[language].about || "Something went wront, sorry about that! Please contact me if you can't see this text.";;
+    const header = content[language].header.navigator[0];
     const { colorScheme } = useColor();
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
         <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4 max-sm:text-xl"
         style={{ backgroundColor: lightBackground, color: primary }}
-        id="Home"
+        id={ header }
         >
             <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl">
                 {language === 'sv' ? 'Om mig' : 'About Me'}
