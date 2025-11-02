@@ -11,18 +11,22 @@ function About() {
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
-        <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4 max-sm:text-xl"
+        <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4 max-sm:text-xl items-center"
         style={{ backgroundColor: lightBackground, color: primary }}
         id={ header }
         >
             <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl">
                 {language === 'sv' ? 'Om mig' : 'About Me'}
             </h3>
-            {about.split('\n').map((line, index) => (
-                <p key={index} className="tracking-tight p-1" style={{ color: secondary }}>
-                    {line}
-                </p>
-            ))}
+
+            <div className="flex flex-col justify-start sm:p-2">
+                {about.split('\n').map((line, index) => (
+                    <p key={index} className="tracking-tight p-1" style={{ color: secondary }}>
+                        {line}
+                    </p>
+                ))}
+            </div>
+            <img src="assets/bunny.png" alt="Bunny working on a laptop" className="h-auto w-32 mx-auto" />
         </div>
     )
 }

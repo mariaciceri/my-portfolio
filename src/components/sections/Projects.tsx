@@ -61,7 +61,7 @@ function Projects() {
                     <div
                     key={index}
                     className="relative group overflow-hidden bg-white py-4 min-h-20 rounded shadow m-1 content-center 
-                    flex-grow max-w-[280px] cursor-pointer max-sm:w-[90%]"
+                    flex-grow sm:max-w-[280px] lg:max-w-[370px] cursor-pointer max-sm:w-[90%]"
                     style={{ backgroundColor: lightBackground, color: secondary }}
                     onClick={() => setSelectedProject(project)}
                     >

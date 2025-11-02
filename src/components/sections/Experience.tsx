@@ -24,9 +24,12 @@ function Experience() {
             {exp.map((item, index) => {
                 return (
                     <div key={index} className="mb-4 p-4 rounded-lg shadow-md bg-white max-sm:p-3">
-                        <h4 className="font-cormorant max-sm:text-lg">{item.company}</h4>
                         <h5 className="max-sm:text-lg" style={{ color: secondary }}>{item.position}</h5>
-                        <p className="text-xs">{item.date}</p>
+                        <p className="flex items-center justify-around max-sm:flex-col max-sm:items-start max-sm:gap-1">
+                            <h4 className="font-cormorant max-sm:text-lg">{item.company}</h4>
+                            <p className="font-cormorant max-sm:text-lg">{item.date}</p>
+                        </p>
+                        <hr />
                         <p className="mt-2 text-xs max-sm:text-[18px]">{item.description}</p>
                     </div>
                 );
