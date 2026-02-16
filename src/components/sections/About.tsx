@@ -6,12 +6,12 @@ import { colors } from '../../data/colors';
 function About() {
     const { language } = useLanguage();
     const about = content[language].about || "Something went wront, sorry about that! Please contact me if you can't see this text.";;
-    const header = content[language].header.navigator[0];
+    const header = content[language].header.navigator[2];
     const { colorScheme } = useColor();
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
-        <div className="shadow-xl rounded-2xl p-8 lg:h-full max-sm:p-4 max-sm:text-xl items-center"
+        <div className="shadow-xl rounded-2xl p-8 max-sm:p-4 max-sm:text-xl items-center"
         style={{ backgroundColor: lightBackground, color: primary }}
         id={ header }
         >

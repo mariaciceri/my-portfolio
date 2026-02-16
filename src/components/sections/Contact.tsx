@@ -6,12 +6,12 @@ import { colors } from '../../data/colors';
 function Contact() {
     const { language } = useLanguage();
     const contactInfo = content[language].contact || "Something went wrong, sorry about that! Please contact me here <mariafacchin00@hotmail.com> if you can't see this text.";
-    const header = content[language].header.navigator[3];
+    const header = content[language].header.navigator[4];
     const { colorScheme } = useColor();
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
-        <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5 lg:h-full"
+        <div className="shadow-xl rounded-2xl p-6 text-gray-600 col-span-2 mt-5"
         style={{ backgroundColor: lightBackground }}
         id={ header }>
             <div className="font-cormorant text-2xl pb-4"
@@ -48,6 +48,11 @@ function Contact() {
                 </a>
                 }
             </div>
+            <a href="../../assets/recommendationLetter.pdf" target="_blank" rel="noopener noreferrer"
+                className="hover:text-gray-900 hover:scale-105 transition-all duration-300 max-sm:py-2">
+                <i className="fa-brands fa-readme"></i>
+                {language === 'en' ? ' Read recommendation' : ' Läs rekommendationen'}
+            </a>
         </div>
     )
 }

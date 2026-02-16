@@ -9,7 +9,7 @@ function Projects() {
     const { language } = useLanguage();
     const firstProjects = content[language].projects.slice(0, 6) || [];
     const lastProjects = content[language].projects.slice(6,) || [];
-    const header = content[language].header.navigator[2];
+    const header = content[language].header.navigator[3];
     const { colorScheme } = useColor();
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
