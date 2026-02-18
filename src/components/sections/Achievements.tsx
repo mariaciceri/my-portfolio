@@ -13,11 +13,12 @@ function Recommendation() {
 
 
     return (
-        <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5 lg:h-full"
+        <div className="shadow-xl rounded-2xl p-8 text-gray-600 col-span-2 mt-5 lg:h-full
+        max-sm:gap-4 max-sm:p-4"
             style={{ backgroundColor: lightBackground }}
             id={ header }>
             <h3 className="break-all whitespace-pre-wrap text-3xl 
-            font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl"
+            font-cormorant font-semibold tracking-widest mb-4"
                 style={{ color: primary }}>
                 {language === 'sv' ? 'Resultat' : 'Key Achievements'}
             </h3>
@@ -27,6 +28,7 @@ function Recommendation() {
                     <li key={index} className="mb-2 text-s max-sm:text-[18px]">
                         <i className={text.icon}></i>
                         {text.text}
+                        <strong>{text.inpact}</strong>
                     </li>
                 ))}
                 </ul>

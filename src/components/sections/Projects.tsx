@@ -32,12 +32,12 @@ function Projects() {
     })
 
     return (
-        <div className="grid grid-cols-3 gap-2 p-4 shadow-xl rounded-2xl
-        max-sm:grid-cols-1 max-sm:gap-4 max-sm:p-2"
+        <div className="grid grid-cols-3 gap-2 p-8 shadow-xl rounded-2xl
+        max-sm:grid-cols-1 max-sm:gap-4 max-sm:p-4"
         style={{ backgroundColor: primary, color: lightBackground }}
         id={ header }
         >
-            <h3 className="col-span-3 tracking-widest font-cormorant text-4xl max-sm:col-span-1">
+            <h3 className="col-span-3 tracking-widest font-cormorant text-3xl max-sm:col-span-1">
                 Personal Projects
             </h3>
             {firstProjects.map((project, index) => (
@@ -50,7 +50,8 @@ function Projects() {
                 >
                     <h4 className='max-sm:text-lg max-sm:px-2'>{project.name}</h4>
                     <div className='absolute inset-0 translate-y-full group-hover:translate-y-0 
-                    transition-transform duration-[400ms] content-center py-4 min-h-20 rounded'
+                    transition-transform duration-[400ms] content-center py-4 min-h-20 rounded
+                    max-sm:text-lg max-sm:px-2'
                     style={{ backgroundColor: secondary, color: lightBackground }}>
                         {project.name}
                     </div>
@@ -65,9 +66,10 @@ function Projects() {
                     style={{ backgroundColor: lightBackground, color: secondary }}
                     onClick={() => setSelectedProject(project)}
                     >
-                        <h4 className='max-sm:text-lg max-sm:px-2'>{project.name}</h4>
+                        <h4 className="max-sm:text-lg max-sm:px-2">{project.name}</h4>
                         <div className='absolute inset-0 translate-y-full group-hover:translate-y-0 
-                        transition-transform duration-[400ms] content-center py-4 min-h-20 rounded'
+                        transition-transform duration-[400ms] content-center py-4 min-h-20 rounded 
+                        max-sm:text-lg max-sm:px-2' 
                         style={{ backgroundColor: secondary, color: lightBackground }}>
                             {project.name}
                         </div>

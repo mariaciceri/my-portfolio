@@ -47,7 +47,7 @@ export const content = {
                 description: "A React Native + Expo + TypeScript mobile app for managing your video game library—launching soon! Users can manually add games, but the real fun is the auto-suggest feature: type a game name, and the app fetches metadata and cover art. Linking Steam account is already integrated, with more platforms coming. The goal? Clean, intuitive UX for gamers, built collaboratively with my very gamer husband. So no more scrolling through your library or going to many places to find if you have a game or not.",
                 link: "",
                 github: "https://github.com/mariaciceri/game-app-2",
-                tech: "Problem-solving with asynchronous API integration, UI finesse in TypeScript, Seamless mobile UX flows",
+                tech: "TypeScript, Firebase Cloud Functions, React Native, Expo, Mobile App Development, User-Centric Design",
             },
             {
                 name:"TakeCare Inventory Management",
@@ -106,21 +106,26 @@ export const content = {
         achievement: [
             {
                 icon: "fa-solid fa-lock",
-                text: " Integrated Google APIs for seamless user login and email functionality.",
+                text: " Integrated Google APIs for seamless user login and email functionality,",
+                inpact: " reducing onboarding friction and improving overall user experience."
             },
             {
                 icon: "fa-solid fa-arrow-trend-up",
-                text: " Boosted ML predictor accuracy by 20% for key cement features.",
+                text: " Boosted ML predictor accuracy by 20% for key cement features,",
+                inpact: " enabling more reliable forecasting and better data-driven decision-making."
             },
             {
                 icon: "fa-solid fa-gears",
-                text: " Migrated ML model from joblib to ONNX for cross-platform use.",
+                text: " Migrated ML model from joblib to ONNX for cross-platform use,",
+                inpact: " improving deployment flexibility and reducing environment compatibility issues."
             },
             {
                 icon: "fa-solid fa-arrows-split-up-and-left",
-                text: " Built a Python MLOps starter script with data cleaning, feature selection, model training, MLflow logging, and model saving, laying the groundwork for automated workflows.",
+                text: " Built a Python MLOps starter script with data cleaning, feature selection, model training, MLflow logging, and model saving,",
+                inpact: " laying the groundwork for automated workflows and faster model iteration cycles."
             },
         ]
+
     },
     sv: {
         header: {
@@ -169,7 +174,7 @@ export const content = {
                 description: "En mobilapp byggd med React Native + Expo + TypeScript för att hantera ditt tv-spelsbibliotek - lanseras snart! Användare kan lägga till spel manuellt, men det roligaste är autosuggest-funktionen: skriv in ett spelnamn så hämtar appen metadata och omslagsbild. Koppling till Steam-konto är redan integrerad, och fler plattformar är på väg. Målet? En ren, intuitiv UX för gamers, skapad tillsammans med min mycket spelintresserade man. Inga fler scrollande genom biblioteket eller letande efter om du äger ett visst spel eller inte.",
                 link: "",
                 github: "https://github.com/mariaciceri/game-app-2",
-                tech: "Problemlösning med asynkron API-integration, UI-finess i TypeScript, Sömlösa UX-flöden för mobil",
+                tech: "TypeScript, Firebase Cloud Functions, React Native, Expo, Mobile App Utveckling, AnvändarcentreradDesign",
             },
             {
                 name: "TakeCare Inventory Management",
@@ -228,20 +233,25 @@ export const content = {
         achievement: [
             {
                 icon: "fa-solid fa-lock",
-                text: " Integrerade Google API:er för smidig inloggning och e-postfunktionalitet.",
+                text: " Integrerade Google API:er för smidig inloggning och e-postfunktionalitet,",
+                inpact: " vilket minskade friktion vid onboarding och förbättrade användarupplevelsen."
             },
             {
                 icon: "fa-solid fa-arrow-trend-up",
-                text: " Ökade prediktorns noggrannhet med 20 % för viktiga cementegenskaper.",
+                text: " Ökade prediktorns noggrannhet med 20 % för viktiga cementegenskaper,",
+                inpact: " vilket möjliggjorde mer tillförlitliga prognoser och bättre datadrivet beslutsfattande."
             },
             {
                 icon: "fa-solid fa-gears",
-                text: " Migrerade ML-modell från joblib till ONNX för plattformsoberoende användning.",
-            },
+                text: " Migrerade ML-modell från joblib till ONNX för plattformsoberoende användning,",
+                inpact: " vilket förbättrade flexibiliteten vid driftsättning och minskade kompatibilitetsproblem."
+           },
             {
                 icon: "fa-solid fa-arrows-split-up-and-left",
-                text: " Byggde ett Python MLOps-startskript med datarensning, feature selection, modellträning, MLflow-loggning och modelllagring, som lade grunden för automatiserade arbetsflöden.",
-            },
+                text: " Byggde ett Python MLOps-startskript med datarensning, feature selection, modellträning, MLflow-loggning och modelllagring,",
+                inpact: " vilket lade grunden för automatiserade arbetsflöden och snabbare modelliterationer."
+           },
         ]
+
     },
 };

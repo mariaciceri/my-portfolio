@@ -15,7 +15,7 @@ function About() {
         style={{ backgroundColor: lightBackground, color: primary }}
         id={ header }
         >
-            <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4 max-sm:text-4xl">
+            <h3 className="text-3xl font-cormorant font-semibold tracking-widest mb-4">
                 {language === 'sv' ? 'Om mig' : 'About Me'}
             </h3>
 

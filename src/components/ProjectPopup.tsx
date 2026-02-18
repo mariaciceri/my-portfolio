@@ -54,7 +54,7 @@ function ProjectPopup({ project, onClose }: ProjectPopupProps) {
                             );
                         })}
                     </p>
-                    <div className="flex space-x-[50px] justify-self-center text-xl">
+                    <div className="flex space-x-[50px] justify-center text-xl">
                         { project.link &&
                         <a href={project.link} target="_blank" rel="noopener noreferrer" 
                             className="text-black hover:text-gray-700 hover:scale-105 transition-all duration-300">

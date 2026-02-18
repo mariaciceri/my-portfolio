@@ -11,10 +11,11 @@ function Contact() {
     const { primary, secondary, lightBackground } = colors[colorScheme];
 
     return (
-        <div className="shadow-xl rounded-2xl p-6 text-gray-600 col-span-2 mt-5"
+        <div className="shadow-xl rounded-2xl p-6 text-gray-600 col-span-2 mt-5 
+        max-sm:p-4 max-sm:flex max-sm:items-center max-sm:text-center max-sm:flex-col"
         style={{ backgroundColor: lightBackground }}
         id={ header }>
-            <div className="font-cormorant text-2xl pb-4"
+            <div className="font-cormorant text-2xl sm:pb-4"
             style={{ color: primary }}>
                 { contactInfo.message }
             </div>
